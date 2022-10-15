@@ -1,4 +1,6 @@
 <!--Counter Inbox-->
+<!--Bagian Post Tulisan di kolom Berita-->
+
 <?php
     $query=$this->db->query("SELECT * FROM tbl_inbox WHERE inbox_status='1'");
     $query2=$this->db->query("SELECT * FROM tbl_komentar WHERE komentar_status='0'");
@@ -299,9 +301,9 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
+      <b>Version</b> 3.0
     </div>
-    <strong>Copyright &copy; 2017 <a href="http://mfikri.com">M Fikri Setiadi</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="https://www.bsi.ac.id/ubsi/index.js">Univeristas Bina Sarana Informatika</a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->
