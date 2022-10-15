@@ -6,7 +6,7 @@
   <title>Lintas Nusantara | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
+  <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon_ln.png'?>">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/bootstrap/css/bootstrap.min.css'?>">
   <!-- Font Awesome -->
@@ -25,7 +25,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg"> <img width="320px;" src="<?php echo base_url().'assets/images/mylogo.png'?>"></p><hr/>
+    <p class="login-box-msg"> <img src="<?php echo base_url().'assets/images/logo_ln.png'?>"></p><hr/>
 
     <form action="<?php echo site_url().'admin/login/auth'?>" method="post">
       <div class="form-group has-feedback">
