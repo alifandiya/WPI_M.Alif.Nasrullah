@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MSCHOOL | Log in</title>
+  <title>Lintas Nusantara | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
@@ -38,9 +38,10 @@
       </div>
       <div class="row">
         <div class="col-xs-8">
-          <div class="checkbox icheck">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label>
-              <input type="checkbox"> Remember Me
+              <p><center> | Remember me</center></p>
             </label>
           </div>
         </div>
@@ -55,7 +56,7 @@
 
     <!-- /.social-auth-links -->
     <hr/>
-    <p><center>Copyright <?php echo date('Y');?> by M Fikri Setiadi <br/> All Right Reserved</center></p>
+    <p><center>Copyright <?php echo date('Y');?> Powered. Kelompok 1<br/> All Right Reserved</center></p>
   </div>
   <!-- /.login-box-body -->
 </div>

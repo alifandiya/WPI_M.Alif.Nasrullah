@@ -11,7 +11,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>M-Sekolah | Dashboard</title>
+  <title>Lintas Nusantara | Controller</title>
   <!-- Tell the browser to be responsive to screen width -->
   <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -166,7 +166,7 @@
         </li>
 
          <li>
-          <a href="<?php echo base_url().'administrator/logout'?>">
+          <a href="<?php echo base_url().'admin/login/logout'?>">
             <i class="fa fa-sign-out"></i> <span>Sign Out</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
@@ -185,12 +185,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
+        Controller
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
+        <li class="active">Controller</li>
       </ol>
     </section>
 
@@ -273,7 +273,7 @@
         <div class="col-md-12">
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">Pengunjung bulan ini</h3>
+              <h3 class="box-title">Visitor of the month</h3>
 
             </div>
             <!-- /.box-header -->
@@ -338,20 +338,20 @@
         <div class="col-md-4">
           <!-- Info Boxes Style 2 -->
           <div class="info-box bg-yellow">
-            <span class="info-box-icon"><i class="fa fa-safari"></i></span>
+            <span class="info-box-icon"><i class="fa fa-chrome"></i></span>
             <?php
-                    $query=$this->db->query("SELECT * FROM tbl_pengunjung WHERE pengunjung_perangkat='Safari'");
+                    $query=$this->db->query("SELECT * FROM tbl_pengunjung WHERE pengunjung_perangkat='Google Chrome'");
                     $jml=$query->num_rows();
               ?>
             <div class="info-box-content">
-              <span class="info-box-text">Safari</span>
+              <span class="info-box-text">Google Chrome</span>
               <span class="info-box-number"><?php echo number_format($jml);?></span>
 
               <div class="progress">
                 <div class="progress-bar" style="width: 100%"></div>
               </div>
                   <span class="progress-description">
-                    Penggunjung
+                    Visitor
                   </span>
             </div>
             <!-- /.info-box-content -->
@@ -360,18 +360,18 @@
           <div class="info-box bg-green">
             <span class="info-box-icon"><i class="fa fa-globe"></i></span>
             <?php
-                    $query=$this->db->query("SELECT * FROM tbl_pengunjung WHERE pengunjung_perangkat='Other' OR pengunjung_perangkat='Internet Explorer'");
+                    $query=$this->db->query("SELECT * FROM tbl_pengunjung WHERE pengunjung_perangkat='Other' OR pengunjung_perangkat='Internet Explorer/Opera/Microsoft Edge'");
                     $jml=$query->num_rows();
               ?>
             <div class="info-box-content">
-              <span class="info-box-text">Lainnya</span>
+              <span class="info-box-text">Other</span>
               <span class="info-box-number"><?php echo number_format($jml);?></span>
 
               <div class="progress">
                 <div class="progress-bar" style="width: 100%"></div>
               </div>
                   <span class="progress-description">
-                    Pengunjung
+                    Visitor
                   </span>
             </div>
             <!-- /.info-box-content -->
@@ -384,14 +384,14 @@
                     $jml=$query->num_rows();
               ?>
             <div class="info-box-content">
-              <span class="info-box-text">Pengunjung Bulan Lalu</span>
+              <span class="info-box-text">Last month's visitors</span>
               <span class="info-box-number"><?php echo number_format($jml);?></span>
 
               <div class="progress">
                 <div class="progress-bar" style="width: 100%"></div>
               </div>
                   <span class="progress-description">
-                    Pengunjung
+                    Visitor
                   </span>
             </div>
             <!-- /.info-box-content -->
@@ -404,14 +404,14 @@
                     $jml=$query->num_rows();
               ?>
             <div class="info-box-content">
-              <span class="info-box-text">Pengunjung Bulan Ini</span>
+              <span class="info-box-text">Visitor of the month</span>
               <span class="info-box-number"><?php echo number_format($jml);?></span>
 
               <div class="progress">
                 <div class="progress-bar" style="width: 100%"></div>
               </div>
                   <span class="progress-description">
-                    Pengunjung
+                    Visitor
                   </span>
             </div>
             <!-- /.info-box-content -->
@@ -432,9 +432,9 @@
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
+      <b>Version</b> 3,0
     </div>
-    <strong>Copyright &copy; 2017 <a href="http://mfikri.com">M Fikri Setiadi</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="https://www.bsi.ac.id/ubsi/index.js">Univeristas Bina Sarana Informatika</a>.</strong> All rights reserved.
   </footer>
 
 

@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>M-Sekolah | List Berita</title>
+  <title>Lintas Nusantara | List Berita</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
@@ -261,13 +261,13 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
+      <b>Version</b> 3.0
     </div>
-    <strong>Copyright &copy; 2017 <a href="http://mfikri.com">M Fikri Setiadi</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="https://www.bsi.ac.id/ubsi/index.js">Univeristas Bina Sarana Informatika</a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
+  <aside class="control-sidebar control-sidebar-dark>
     <!-- Create the tabs -->
     <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
       <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
@@ -544,7 +544,7 @@
         <script type="text/javascript">
                 $.toast({
                     heading: 'Success',
-                    text: "Berita Berhasil disimpan ke database.",
+                    text: "Berita Berhasil diposting.",
                     showHideTransition: 'slide',
                     icon: 'success',
                     hideAfter: false,
@@ -561,7 +561,7 @@
                     icon: 'info',
                     hideAfter: false,
                     position: 'bottom-right',
-                    bgColor: '#00C9E6'
+                    bgColor: '#7EC857'
                 });
         </script>
     <?php elseif($this->session->flashdata('msg')=='success-hapus'):?>
@@ -573,7 +573,7 @@
                     icon: 'success',
                     hideAfter: false,
                     position: 'bottom-right',
-                    bgColor: '#7EC857'
+                    bgColor: '#b51414'
                 });
         </script>
     <?php else:?>

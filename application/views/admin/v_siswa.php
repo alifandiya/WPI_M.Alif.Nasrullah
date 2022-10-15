@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>M-Sekolah | Data Siswa</title>
+  <title>Lintas Nusantara | Data Siswa</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
@@ -257,9 +257,9 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0
+      <b>Version</b> 3.0
     </div>
-    <strong>Copyright &copy; 2017 <a href="http://mfikri.com">M Fikri Setiadi</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="https://www.bsi.ac.id/ubsi/index.js">Univeristas Bina Sarana Informatika</a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->

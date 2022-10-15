@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>M School - Selamat Datang di M School</title>
+    <title>Lintas Nusantara - Selamat Datang di Portal Informasi Sekolah Lintas Nusantara</title>
     <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
@@ -40,7 +40,7 @@
                             <span class="icon-phone"></span>00 55 22 66
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>info@mschool.com
+                            <span class="icon-envelope-open"></span>info@lintasnusantara.com
                         </div>
                         <div class="header-top_list">
                             <span class="icon-location-pin"></span>Padang, Sumatera Barat, INA. 11001
