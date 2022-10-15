@@ -8,9 +8,9 @@
     <!-- Logo -->
     <a href="<?php echo site_url('');?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini">LS</span>
+      <span class="logo-mini" title="Lintas Nusantara">LS</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">Lintas Nusantara</span>
+      <span class="logo-lg" title="Lintas Nusantara">Lintas Nusantara</span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -24,7 +24,7 @@
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
           <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="#" class="dropdown-toggle" title="Pesan" data-toggle="dropdown">
               <i class="fa fa-envelope-o"></i>
               <span class="label label-success"><?php echo $jum_pesan;?></span>
             </a>
@@ -44,7 +44,7 @@
                   <li><!-- start message -->
                     <a href="<?php echo base_url().'admin/inbox'?>">
                       <div class="pull-left">
-                        <img src="<?php echo base_url().'assets/images/user_blank.png'?>" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url().'assets/images/user_blank.png'?>" class="img-square" alt="User Image">
                       </div>
                       <h4>
                         <?php echo $inbox_nama;?>
@@ -67,7 +67,7 @@
               $c=$q->row_array();
           ?>
           <li class="dropdown user user-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="#" class="dropdown-toggle" title="Profil" data-toggle="dropdown">
               <img src="<?php echo base_url().'assets/images/'.$c['pengguna_photo'];?>" class="user-image" alt="">
               <span class="hidden-xs"><?php echo $c['pengguna_nama'];?></span>
             </a>
@@ -97,7 +97,7 @@
           </li>
           <!-- Control Sidebar Toggle Button -->
           <li>
-            <a href="<?php echo base_url().''?>" target="_blank" title="Lihat Website"><i class="fa fa-globe"></i></a>
+            <a href="<?php echo base_url().''?>" target="blank" title="ke Laman Website"><i class="fa fa-globe"></i></a>
           </li>
         </ul>
       </div>

@@ -166,7 +166,7 @@
         </li>
 
          <li>
-          <a href="<?php echo base_url().'admin/login/logout'?>">
+          <a href="<?php echo base_url('').'admin/login/logout'?>">
             <i class="fa fa-sign-out"></i> <span>Sign Out</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
