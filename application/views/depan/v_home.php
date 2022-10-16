@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Lintas Nusantara - Selamat Datang di Portal Informasi Sekolah Lintas Nusantara</title>
-    <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
+    <link rel="shorcut icon" href="<?php echo base_url().'assets/images/favicon_ln.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
     <!-- Google Fonts -->
@@ -37,13 +37,13 @@
                 <div class="col-xs-6 col-sm-8 col-md-9">
                     <div class="header-top_address">
                         <div class="header-top_list">
-                            <span class="icon-phone"></span>00 55 22 66
+                            <span class="icon-phone"></span>(021) 82425634
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>info@lintasnusantara.com
+                            <span class="icon-envelope-open"></span>IDN@lintasnusantara.edu.ac
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-location-pin"></span>Padang, Sumatera Barat, INA. 11001
+                            <span class="icon-location-pin"></span>Jl. Cut Mutia No.88, Sepanjang Jaya, Kec. Rawalumbu, Kota Bks, Jawa Barat 17113
                         </div>
                     </div>
                     <div class="header-top_login2">
@@ -66,7 +66,7 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="<?php echo base_url().'theme/images/logo-dark.png'?>"></a>
+                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320x;" src="<?php echo base_url().'theme/images/lnjoin.png'?>"></a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -170,7 +170,7 @@
         <div class="row">
             <div class="col-md-8">
                <h2>Welcome</h2>
-               <p>Kami Menyambut baik terbitnya Website MSCHOOL yang baru , dengan harapan dipublikasinya website ini sekolah berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
+               <p>Kami Menyambut baik terbitnya Website Lintas Nusantara Akademi yang baru , dengan harapan dipublikasinya website ini akademi berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
 
             </div>
             <div class="col-md-4">
@@ -304,9 +304,9 @@
             <div class="col-md-3">
                 <div class="foot-logo">
                     <a href="<?php echo site_url();?>">
-                        <img src="<?php echo base_url().'theme/images/logo-white.png'?>" class="img-fluid" alt="footer_logo">
+                        <img src="<?php echo base_url().'theme/images/ln_1.png'?>" class="img-fluid" alt="footer_logo">
                     </a>
-                    <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
+                    <p><?php echo date('Y');?> © copyright by <a href="https://www.bsi.ac.id/ubsi/index.js" target="_blank">Univeristas Bina Sarana Informatika</a>. <br>All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -336,9 +336,9 @@
                 <div class="col-md-3">
                     <div class="address">
                         <h3>Hubungi Kami</h3>
-                        <p><span>Alamat: </span> Padang, Sumatera Barat, INA. 11001</p>
-                        <p>Email : info@mschool.com
-                            <br> Phone : +91 555 668 986</p>
+                        <p><span>Alamat: </span> Jl. Cut Mutia No.88, Sepanjang Jaya, Kec. Rawalumbu, Kota Bks, Jawa Barat 17113</p>
+                        <p>Email : IDN@lintasnusantara.edu.ac
+                            <br> Phone : (021) 82425634</p>
                             <ul class="footer-social-icons">
                                 <li><a href="#"><i class="fa fa-facebook fa-fb" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin fa-in" aria-hidden="true"></i></a></li>
