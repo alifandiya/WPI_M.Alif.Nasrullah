@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>About</title>
-    <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
+    <link rel="shorcut icon" href="<?php echo base_url().'assets/images/favicon_ln.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
     <!-- Google Fonts -->
@@ -31,13 +31,13 @@
                 <div class="col-xs-6 col-sm-8 col-md-9">
                     <div class="header-top_address">
                         <div class="header-top_list">
-                            <span class="icon-phone"></span>00 55 22 66
+                            <span class="icon-phone"></span>(021) 82425634
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>info@mschool.com
+                            <span class="icon-envelope-open"></span>IDN@lintasnusantara.edu.ac
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-location-pin"></span>Padang, Sumatera Barat, INA. 11001
+                            <span class="icon-location-pin"></span>Jl. Cut Mutia No.88, Sepanjang Jaya, Kec. Rawalumbu, Kota Bks, Jawa Barat 17113
                         </div>
                     </div>
                     <div class="header-top_login2">
@@ -60,7 +60,7 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="<?php echo base_url().'theme/images/logo-dark.png'?>"></a>
+                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320px;" src="<?php echo base_url().'theme/images/lnjoin.png'?>"></a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -118,7 +118,7 @@
                 </p>
                 <p>Hal ini seiring dengan penguasaan teknologi untuk dimanfaatkan sebaik mungkin,
                   sehingga menciptakan iklim kondusif dalam ranah keilmuan. Dengan konsep yang kontekstual dan efektif,
-                  kami mengejewantahkan nilai-nilai pendidikan yang tertuang dalam visi misi M-School,
+                  kami mengejewantahkan nilai-nilai pendidikan yang tertuang dalam visi misi Lintas Nusantara Akademi,
                   sebagai panduan hukum dalam menjabarkan tujuan hakiki pendidikan.
                 </p>
                 </div>
@@ -140,18 +140,18 @@
                     <div class="single-item">
                         <div class="quote">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <p class="quote_text">MSCHOOL benar-benar mengagumkan. Saya sangat senang bisa bergabung dengan MSCHOOL dan menjadi siswa terbaik tahun 2018.</p>
+                            <p class="quote_text">Lintas Nusantara Akademi benar-benar mengagumkan. Saya sangat senang bisa bergabung dengan LNA dan menjadi siswa terbaik tahun 2018.</p>
                             <div class="testi-img_block">
                                 <img src="<?php echo base_url().'theme/images/student-1.png'?>" class="img-fluid" alt="#">
-                                <p><span>Hernandez Alvaro</span>Siswa Terbaik 2018</p>
+                                <p><span>Hendy Panggalila</span>Siswa Terbaik 2018</p>
                             </div>
                         </div>
                         <div class="quote">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <p class="quote_text">MSCHOOL benar-benar mengagumkan. Saya sangat senang bisa bergabung dengan MSCHOOL dan menjadi siswa terbaik tahun 2017. </p>
+                            <p class="quote_text">Lintas Nusantara Akademi benar-benar mengagumkan. Saya sangat senang bisa bergabung dengan LNA dan menjadi siswa terbaik tahun 2017. </p>
                             <div class="testi-img_block">
                                 <img src="<?php echo base_url().'theme/images/student-2.png'?>" class="img-fluid" alt="#">
-                                <p><span>Elanoar Rigby</span>Siswa Terbaik 2017</p>
+                                <p><span>Bambang Sutatyo</span>Siswa Terbaik 2017</p>
                             </div>
                         </div>
                     </div>
@@ -211,9 +211,9 @@
                     <div class="col-md-3">
                         <div class="foot-logo">
                             <a href="<?php echo site_url();?>">
-                                <img src="<?php echo base_url().'theme/images/logo-white.png'?>" class="img-fluid" alt="footer_logo">
+                                <img src="<?php echo base_url().'theme/images/ln_1.png'?>" class="img-fluid" alt="footer_logo">
                             </a>
-                            <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
+                            <p><?php echo date('Y');?> © copyright by <a href="https://www.bsi.ac.id/ubsi/index.js" target="_blank">Univeristas Bina Sarana Informatika</a>. <br>All rights reserved.</p>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -243,9 +243,9 @@
                         <div class="col-md-3">
                             <div class="address">
                                 <h3>Hubungi Kami</h3>
-                                <p><span>Alamat: </span> Padang, Sumatera Barat, INA. 11001</p>
-                                <p>Email : info@mschool.com
-                                    <br> Phone : +91 555 668 986</p>
+                                <p><span>Alamat: </span>Jl. Cut Mutia No.88, Sepanjang Jaya, Kec. Rawalumbu, Kota Bks, Jawa Barat 17113</p>
+                                <p>Email : IDN@lintasnusantara.edu.ac
+                                    <br> Phone :(021) 82425634</p>
                                     <ul class="footer-social-icons">
                                         <li><a href="#"><i class="fa fa-facebook fa-fb" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-linkedin fa-in" aria-hidden="true"></i></a></li>
