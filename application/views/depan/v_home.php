@@ -52,7 +52,10 @@
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <div class="header-top_login mr-sm-3">
-                        <a href="<?php echo site_url('contact');?>">Hubungi Kami</a>
+                        <a href="<?php echo site_url('contact');?>" class="font-weight-bold">Hubungi Kami</a>
+                    </div>
+                    <div class="header-top_login mr-sm-4">
+                        <a href="<?php echo site_url('admin/login/logout');?>" class="font-weight-bold">Login</a>
                     </div>
                 </div>
             </div>
