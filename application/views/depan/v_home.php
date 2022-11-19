@@ -69,7 +69,7 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320x;" src="<?php echo base_url().'theme/images/lnjoin.png'?>"></a>
+                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320x;" src="<?php echo base_url().'theme/images/lnjoin.jpg'?>"></a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -79,10 +79,10 @@
                                     <a class="nav-link" href="<?php echo site_url('about');?>">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
+                                    <a class="nav-link" href="<?php echo site_url('guru');?>">Mentor</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('siswa');?>">Siswa</a>
+                                    <a class="nav-link" href="<?php echo site_url('siswa');?>">Akademia</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('blog');?>">Blog</a>
@@ -119,11 +119,12 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.jpg'?>" alt="First slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/holi1.jpg'?>" alt="First slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Bepikir Kreaftif &amp; Inovatif</h1>
-                            <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
+                                <h1>Bepikir Kritis &amp; Leberalis</h1>
+                                <h4>Berpikir kritis adalah cara berpikir manusia untuk merespon seseorang dengan menganalisis fakta <br>untuk membentuk penilaian. Subjeknya kompleks, 
+                                    dan ada beberapa definisi yang berbeda mengenai konsep ini,<br> yang umumnya mencakup analisis rasional, skeptis, tidak bias, atau evaluasi bukti faktual.</h4>   
                             <div class="slider-btn">
                                 <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Learn more</a>
                             </div>
@@ -131,11 +132,11 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-2.jpg'?>" alt="Second slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/holi2.jpeg'?>" alt="Second slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Guru Bekualitas Tinggi</h1>
-                            <h4>Guru merupakan faktor penting dalam proses belajar-mengajar.<br> Itulah kenapa kami mendatangkan guru-guru <br>terbaik dari berbagai penjuru.</h4>
+                            <h1>Mentor Bekualitas Tinggi</h1>
+                            <h4>Mentor yang berkualitas yaitu guru yang memiliki pengetahuan yang baik atau mendalam tentang kurikulum pendidikan<br> dan mampu mengembangkannya dengan baik serta sesuai dengan aturan pendidikan yang berlaku.</br></h4>
                             <div class="slider-btn">
                                 <a href="<?php echo site_url('guru');?>" class="btn btn-default">Learn more</a>
                             </div>
@@ -143,11 +144,11 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-3.jpg'?>" alt="Third slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/holi3.jpg'?>" alt="Third slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Proses Belajar Interatif</h1>
-                            <h4>Kami membuat proses belajar mengajar menjadi lebih interatif.<br> dengan demikian siswa lebih menyukai <br>proses belajar.</h4>
+                            <h1>Belajar, Efektif &amp; Efisien</h1>
+                            <h4>Cara belajar yang meminimalkan usaha tetapi mendapatkan hasil yang maksimal.</h4>
                             <div class="slider-btn">
                                 <a href="<?php echo site_url('galeri');?>" class="btn btn-default">Learn more</a>
                             </div>
@@ -173,11 +174,13 @@
         <div class="row">
             <div class="col-md-8">
                <h2>Welcome</h2>
-               <p>Kami Menyambut baik terbitnya Website Lintas Nusantara Akademi yang baru , dengan harapan dipublikasinya website ini akademi berharap : Peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya semakin meningkat. </p>
+               <p>Kami Menyambut baik terbitnya Website Lintas Nusantara Akademi yang baru , dengan harapan dipublikasinya website ini kami berharap : Peningkatan layanan pendidikan kepada calon-akademia, orangtua, dan masyarakat pada umumnya semakin meningkat.</p> 
+               <p>- H. Prof. Dr. Septa Prayoga MBA. NBA. Proliga. M.M. Support. Tank. | Direktur Utama</p>
+             
 
             </div>
             <div class="col-md-4">
-                <img src="<?php echo base_url().'theme/images/welcome.png'?>" class="img-fluid about-img" alt="#">
+                <img src="<?php echo base_url().'theme/images/welcome1.png'?>" class="img-fluid about-img" alt="#">
             </div>
         </div>
     </div>
@@ -222,7 +225,7 @@
                 <div class="event-img2">
                 <?php foreach ($pengumuman->result() as $row) :?>
                 <div class="row">
-                    <div class="col-sm-3"> <img src="<?php echo base_url().'theme/images/announcement-icon.png'?>" class="img-fluid" alt="event-img"></div><!-- // end .col-sm-3 -->
+                    <div class="col-sm-3"> <img src="<?php echo base_url().'theme/images/announcement.png'?>" class="img-fluid" alt="event-img"></div><!-- // end .col-sm-3 -->
                     <div class="col-sm-9"> <h3><a href="<?php echo site_url('pengumuman');?>"><?php echo $row->pengumuman_judul;?></a></h3>
                       <span><?php echo $row->tanggal;?></span>
                       <p><?php echo limit_words($row->pengumuman_deskripsi,10).'...';?></p>
@@ -266,7 +269,7 @@
                     <img src="<?php echo base_url().'theme/images/chart-icon_1.png'?>" class="img-fluid" alt="chart_icon">
                 </div>
                 <div class="chart-text">
-                    <p><span class="counter"><?php echo $tot_guru;?></span> Guru
+                    <p><span class="counter"><?php echo $tot_guru;?></span> Mentor
                     </p>
                 </div>
             </div>
@@ -275,7 +278,7 @@
                     <img src="<?php echo base_url().'theme/images/chart-icon_2.png'?>" class="img-fluid" alt="chart_icon">
                 </div>
                 <div class="chart-text">
-                    <p><span class="counter"><?php echo $tot_siswa;?></span> Siswa
+                    <p><span class="counter"><?php echo $tot_siswa;?></span> Akademia
                     </p>
                 </div>
             </div>
@@ -328,8 +331,8 @@
                   <div class="sitemap">
                       <h3>Akademik</h3>
                       <ul>
-                          <li><a href="<?php echo site_url('guru');?>">Guru</a></li>
-                          <li><a href="<?php echo site_url('siswa');?>">Siswa </a></li>
+                          <li><a href="<?php echo site_url('guru');?>">Mentor</a></li>
+                          <li><a href="<?php echo site_url('siswa');?>">Akademia</a></li>
                           <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
                           <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
                           <li><a href="<?php echo site_url('download');?>">Download</a></li>

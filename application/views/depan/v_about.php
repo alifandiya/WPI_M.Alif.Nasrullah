@@ -60,7 +60,7 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-menu"></span>
                         </button>
-                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320px;" src="<?php echo base_url().'theme/images/lnjoin.png'?>"></a>
+                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320px;" src="<?php echo base_url().'theme/images/lnjoin.jpg'?>"></a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -70,10 +70,10 @@
                                     <a class="nav-link" href="<?php echo site_url('about');?>">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
+                                    <a class="nav-link" href="<?php echo site_url('guru');?>">Mentor</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('siswa');?>">Siswa</a>
+                                    <a class="nav-link" href="<?php echo site_url('siswa');?>">Akademia</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('blog');?>">Blog</a>
@@ -111,19 +111,19 @@
             <div class="col-md-7">
                 <h2>Kata Sambutan</h2>
                 <p>Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas karunia dan hidayah-Nya,
-                  sehingga kita semua dapat membaktikan segala hal yang kita miliki untuk kemajuan dunia pendidikan.
-                  Apapun bentuk dan sumbangsih yang kita berikan, jika dilandasi niat yang tulus tanpa memandang imbalan
-                  apapun akan menghasilkan mahakarya yang agung untuk bekal kita dan generasi setelah kita.
-                  Pendidikan adalah harga mati untuk menjadi pondasi bangsa dan negara dalam menghadapi perkembangan zaman.
+                  sehingga kita semua dapat mengkontribusi dalam dunia pendidikan.
+                  Segala sesuatu yang kita ciptakan akan menjadi maha karya yang dapat berguna untuk generasi yang 
+                  mendatang.
                 </p>
-                <p>Hal ini seiring dengan penguasaan teknologi untuk dimanfaatkan sebaik mungkin,
-                  sehingga menciptakan iklim kondusif dalam ranah keilmuan. Dengan konsep yang kontekstual dan efektif,
-                  kami mengejewantahkan nilai-nilai pendidikan yang tertuang dalam visi misi Lintas Nusantara Akademi,
-                  sebagai panduan hukum dalam menjabarkan tujuan hakiki pendidikan.
+                <p>"Dunia di dalam diri kita adalah segalanya internal, seperti pikiran kita, tubuh kita, dan emosi kita.
+                    Pendidikan adalah alat yang meruntuhkan semua hambatan.
+                    Pendidikan merupakan bagian dari tumpuan segala kemajuan dan pertumbuhan, baik sebagai individu maupun sebagai masyarakat.
+                    Semua hal mungkin karena apapun bisa dipelajari."
                 </p>
+                <p>- Ir. Agus Martin Manik. S.Teh, S.Batu | Direktur Operasional
                 </div>
                 <div class="col-md-5">
-                    <img src="<?php echo base_url().'theme/images/welcome-img.jpg'?>" class="img-fluid" alt="#">
+                    <img src="<?php echo base_url().'theme/images/welcome2.jpg'?>" class="img-fluid" alt="#">
                 </div>
             </div>
         </div>
@@ -140,18 +140,18 @@
                     <div class="single-item">
                         <div class="quote">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <p class="quote_text">Lintas Nusantara Akademi benar-benar mengagumkan. Saya sangat senang bisa bergabung dengan LNA dan menjadi siswa terbaik tahun 2018.</p>
+                            <p class="quote_text">Berkat Lintas Nusantara Academy saya mendapatkan kembali kehormatan klan saya.</p>
                             <div class="testi-img_block">
-                                <img src="<?php echo base_url().'theme/images/student-1.png'?>" class="img-fluid" alt="#">
-                                <p><span>Hendy Panggalila</span>Siswa Terbaik 2018</p>
+                                <img src="<?php echo base_url().'theme/images/peserta1.jpg'?>" class="img-fluid" alt="#">
+                                <p><span>Balmond</span>Akademia Terbaik 2021</p>
                             </div>
                         </div>
                         <div class="quote">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <p class="quote_text">Lintas Nusantara Akademi benar-benar mengagumkan. Saya sangat senang bisa bergabung dengan LNA dan menjadi siswa terbaik tahun 2017. </p>
+                            <p class="quote_text">Lintas Nusantara Akademi benar-benar asik seperti tempat bermain. Aku jadi memiliki banyak teman. Apakah kau ingin berteman dengan Nana?</p>
                             <div class="testi-img_block">
-                                <img src="<?php echo base_url().'theme/images/student-2.png'?>" class="img-fluid" alt="#">
-                                <p><span>Bambang Sutatyo</span>Siswa Terbaik 2017</p>
+                                <img src="<?php echo base_url().'theme/images/peserta2.jpg'?>" class="img-fluid" alt="#">
+                                <p><span>Nana</span>Akademia Terbaik 2020</p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                         <img src="<?php echo base_url().'theme/images/chart-icon_1.png'?>" class="img-fluid" alt="chart_icon">
                     </div>
                     <div class="chart-text">
-                        <p><span class="counter"><?php echo $tot_guru;?></span> Guru
+                        <p><span class="counter"><?php echo $tot_guru;?></span> Mentor
                         </p>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                         <img src="<?php echo base_url().'theme/images/chart-icon_2.png'?>" class="img-fluid" alt="chart_icon">
                     </div>
                     <div class="chart-text">
-                        <p><span class="counter"><?php echo $tot_siswa;?></span> Siswa
+                        <p><span class="counter"><?php echo $tot_siswa;?></span> Akademia
                         </p>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
                           <div class="sitemap">
                               <h3>Akademik</h3>
                               <ul>
-                                  <li><a href="<?php echo site_url('guru');?>">Guru</a></li>
-                                  <li><a href="<?php echo site_url('siswa');?>">Siswa </a></li>
+                                  <li><a href="<?php echo site_url('guru');?>">Mentor</a></li>
+                                  <li><a href="<?php echo site_url('siswa');?>">Akademia </a></li>
                                   <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
                                   <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
                                   <li><a href="<?php echo site_url('download');?>">Download</a></li>

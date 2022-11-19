@@ -60,7 +60,7 @@
                       <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                           <span class="icon-menu"></span>
                       </button>
-                      <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320px;" src="<?php echo base_url().'theme/images/lnjoin.png'?>"></a>
+                      <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="320px;" src="<?php echo base_url().'theme/images/lnjoin.jpg'?>"></a>
                       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                           <ul class="navbar-nav">
                               <li class="nav-item">
@@ -70,10 +70,10 @@
                                   <a class="nav-link" href="<?php echo site_url('about');?>">About</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
+                                  <a class="nav-link" href="<?php echo site_url('guru');?>">Mentor</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('siswa');?>">Siswa</a>
+                                  <a class="nav-link" href="<?php echo site_url('siswa');?>">Akademia</a>
                               </li>
                               <li class="nav-item">
                                   <a class="nav-link" href="<?php echo site_url('blog');?>">Blog</a>
@@ -108,7 +108,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="mb-5">Guru Kami</h2>
+                    <h2 class="mb-5">Mentor Kami</h2>
                 </div>
             </div>
             <div class="row">
@@ -161,8 +161,8 @@
                       <div class="sitemap">
                           <h3>Akademik</h3>
                           <ul>
-                              <li><a href="<?php echo site_url('guru');?>">Guru</a></li>
-                              <li><a href="<?php echo site_url('siswa');?>">Siswa </a></li>
+                              <li><a href="<?php echo site_url('guru');?>">Mentor</a></li>
+                              <li><a href="<?php echo site_url('siswa');?>">Akademia</a></li>
                               <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
                               <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
                               <li><a href="<?php echo site_url('download');?>">Download</a></li>

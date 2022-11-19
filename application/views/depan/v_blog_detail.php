@@ -87,10 +87,10 @@
                                   <a class="nav-link" href="<?php echo site_url('about');?>">About</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
+                                  <a class="nav-link" href="<?php echo site_url('guru');?>">Mentor</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('siswa');?>">Siswa</a>
+                                  <a class="nav-link" href="<?php echo site_url('siswa');?>">Akademia</a>
                               </li>
                               <li class="nav-item">
                                   <a class="nav-link" href="<?php echo site_url('blog');?>">Blog</a>
